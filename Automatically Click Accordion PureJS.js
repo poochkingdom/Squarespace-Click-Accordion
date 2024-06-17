@@ -7,9 +7,9 @@
 var debug = false;
 window.addEventListener('DOMContentLoaded', function () {
   if(window.location.hash.length) {
-	<!-- Try to find a matching element -->
+    <!-- Try to find a matching element -->
     var loc = document.querySelector(window.location.hash);
-	if(debug) console.log(loc);
+    if(debug) console.log(loc);
     <!-- If there's a matching element in the page -->
     if (loc != null){
       <!-- Execute the click event on the matching element -->
