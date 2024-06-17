@@ -13,6 +13,6 @@ There are four versions of the script:
 3) jQuery based to achieve the same goal.
 4) Minified jQuery if you don't need to debug, or to use after you have your page working properly.
 
-If you use the jQuery version, it is up to you where you choose to include the jQuery script library reference: <head> <footer> or page code injection.
+If you use the jQuery version, it is up to you where you choose to include the jQuery script library reference: header, footer, or page code injection.
 
 The script is best inserted in: Page -> Settings -> Advanced -> Page Header Code Injection as it is only needed on pages where you use an accordion.
